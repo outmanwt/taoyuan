@@ -160,7 +160,7 @@
         <button
           v-for="farm in FARM_MAP_DEFS"
           :key="farm.type"
-          class="border rounded-[2px] p-4 text-left transition-all cursor-pointer border-accent/30 hover:border-accent/50"
+          class="border rounded-[2px] p-4 text-left transition-all cursor-pointer hover:border-accent/50"
           @click="handleSelectFarm(farm.type)"
         >
           <div class="font-bold mb-1">{{ farm.name }}</div>
